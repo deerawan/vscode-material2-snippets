@@ -1,61 +1,61 @@
 {
   "Import Button": {
-    "prefix": "md2-button",
+    "prefix": "md2-imp-button",
     "description": "Material 2 Import Button Component",
     "body": "import { MD_BUTTON_DIRECTIVES } from '@angular2-material/toolbar';"
   },
   "Import Card": {
-    "prefix": "md2-card",
+    "prefix": "md2-imp-card",
     "description": "Material 2 Import Card Component",
     "body": "import { MD_CARD_DIRECTIVES } from '@angular2-material/card';"
   },
   "Import Checkbox": {
-    "prefix": "md2-checkbox",
+    "prefix": "md2-imp-checkbox",
     "description": "Material 2 Import Checkbox Component",
     "body": "import { MD_CHECKBOX_DIRECTIVES } from '@angular2-material/checkbox';"
   },
   "Import Icon": {
-    "prefix": "md2-icon",
+    "prefix": "md2-imp-icon",
     "description": "Material 2 Import Icon Component",
     "body": "import { MD_ICON_DIRECTIVES, MdIconRegistry } from '@angular2-material/icon';"
   },
   "Import Input": {
-    "prefix": "md2-input",
+    "prefix": "md2-imp-input",
     "description": "Material 2 Import Input Component",
     "body": "import { MD_INPUT_DIRECTIVES } from '@angular2-material/input';"
   },
   "Import List": {
-    "prefix": "md2-list",
+    "prefix": "md2-imp-list",
     "description": "Material 2 Import List Component",
     "body": "import { MD_LIST_DIRECTIVES } from '@angular2-material/list';"
   },
   "Import Progress Bar": {
-    "prefix": "md2-progress-bar",
+    "prefix": "md2-imp-progress-bar",
     "description": "Material 2 Import Progress Bar Component",
     "body": "import { MD_PROGRESS_BAR_DIRECTIVES } from '@angular2-material/progress-bar';"
   },
   "Import Progress Circle": {
-    "prefix": "md2-progress-circle",
+    "prefix": "md2-imp-progress-circle",
     "description": "Material 2 Import Progress Circle Component",
     "body": "import { MD_PROGRESS_CIRCLE_DIRECTIVES } from '@angular2-material/progress-circle';"
   },
   "Import Radio": {
-    "prefix": "md2-radio",
+    "prefix": "md2-imp-radio",
     "description": "Material 2 Import Radio Component",
     "body": "import { MD_RADIO_DIRECTIVES } from '@angular2-material/radio';"
   },
   "Import Sidenav": {
-    "prefix": "md2-sidenav",
+    "prefix": "md2-imp-sidenav",
     "description": "Material 2 Import Sidenav Component",
     "body": "import { MD_SIDENAV_DIRECTIVES } from '@angular2-material/sidenav';"
   },
   "Import Tags": {
-    "prefix": "md2-tabs",
+    "prefix": "md2-imp-tabs",
     "description": "Material 2 Import Tabs Component",
     "body": "import { MD_TABS_DIRECTIVES } from '@angular2-material/tabs';"
   },
   "Import Toolbar": {
-    "prefix": "md2-toolbar",
+    "prefix": "md2-imp-toolbar",
     "description": "Material 2 Import Toolbar Component",
     "body": "import { MD_TOOLBAR_DIRECTIVES } from '@angular2-material/toolbar';"
   }
