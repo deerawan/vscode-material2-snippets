@@ -2,7 +2,7 @@
   "Import Button": {
     "prefix": "md2-imp-button",
     "description": "Material 2 Import Button Component",
-    "body": "import { MD_BUTTON_DIRECTIVES } from '@angular2-material/toolbar';"
+    "body": "import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button';"
   },
   "Import Card": {
     "prefix": "md2-imp-card",
