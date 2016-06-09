@@ -1,31 +1,28 @@
 {
-	"name": "angular2-material-snippets",
-	"displayName": "angular2-material",
-	"description": "Material 2 Snippets",
-	"version": "0.0.1",
-	"publisher": "deerawan",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"onCommand:extension.sayHello"
-	],
-	"main": "./out/src/extension",
-	"contributes": {
-		"commands": [{
-			"command": "extension.sayHello",
-			"title": "Hello World"
-		}]
-	},
-	"scripts": {
-		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
-	},
-	"devDependencies": {
-		"typescript": "^1.6.2",
-		"vscode": "0.10.x"
-	}
+  "name": "vscode-material2-snippets",
+  "publisher": "deerawan",
+  "version": "1.0.0",
+  "displayName": "Material 2 Snippets",
+  "description": "Material 2 Snippets",
+  "license": "See License in LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deerawan/vscode-material2-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      }
+    ]
+  }
 }
