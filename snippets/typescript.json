@@ -42,7 +42,7 @@
   "Import Radio": {
     "prefix": "md2-imp-radio",
     "description": "Material 2 Import Radio Component",
-    "body": "import { MD_RADIO_DIRECTIVES } from '@angular2-material/radio';"
+    "body": "import { MD_RADIO_DIRECTIVES, MdRadioDispatcher } from '@angular2-material/radio';"
   },
   "Import Sidenav": {
     "prefix": "md2-imp-sidenav",
