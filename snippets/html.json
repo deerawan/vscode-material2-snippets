@@ -89,5 +89,54 @@
       "<md-icon fontSet=\"${fontSet}\" fontIcon=\"${fontIcon}\"></md-icon>"
     ],
     "description": "Material 2 Icon using Font set"
+  },
+  "Input": {
+    "prefix": "md2-input",
+    "body": [
+      "<md-input placeholder=\"${placeholder}\" value=\"${value}\"></md-input>"
+    ],
+    "description": "Material 2 Input"
+  },
+  "Input with hint": {
+    "prefix": "md2-input-hint",
+    "body": [
+      "<md-input placeholder=\"${placeholder}\" value=\"${value}\">",
+      "\t<md-hint align=\"${align}\"></md-hint>",
+      "</md-input>"
+    ],
+    "description": "Material 2 Input with hint"
+  },
+  "List": {
+    "prefix": "md2-list",
+    "body": [
+      "<md-list>",
+      "\t<md-list-item *ngFor=\"${ngFor}\">",
+      "\t\t<p md-line></md-line>",
+      "\t</md-list>",
+      "</md-list>"
+    ],
+    "Description": "Material 2 List"
+  },
+  "List Dense": {
+    "prefix": "md2-dense-list",
+    "body": [
+      "<md-list dense>",
+      "\t<md-list-item *ngFor=\"${ngFor}\">",
+      "\t\t<p md-line></md-line>",
+      "\t</md-list>",
+      "</md-list>"
+    ],
+    "Description": "Material 2 Dense List"
+  },
+  "List Nav": {
+    "prefix": "md2-nav-list",
+    "body": [
+      "<md-nav-list>",
+      "\t<md-list-item *ngFor=\"${ngFor}\">",
+      "\t\t<p md-line></md-line>",
+      "\t</md-list>",
+      "</md-nav-list>"
+    ],
+    "Description": "Material 2 Nav List"
   }
 }
