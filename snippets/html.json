@@ -3,7 +3,8 @@
     "prefix": "md2-button",
     "body": [
       "<button md-button>${content}</button>"
-    ]
+    ],
+    "description": "Material 2 Button"
   },
   "Button Icon": {
     "prefix": "md2-icon-button",
@@ -11,13 +12,15 @@
       "<button md-icon-button>",
       "\t<md-icon class=\"${icon}\"></md-icon>",
       "</button>"
-    ]
+    ],
+    "description": "Material 2 Icon Button"
   },
   "Button Raised": {
     "prefix": "md2-raised-button",
     "body": [
       "<button md-raised-button>${content}</button>"
-    ]
+    ],
+    "description": "Material 2 Raised Button"
   },
   "Button Fab": {
     "prefix": "md2-fab",
@@ -25,7 +28,8 @@
       "<button md-fab>",
       "\t<md-icon class=\"${icon}\"></md-icon>",
       "</button>"
-    ]
+    ],
+    "description": "Material 2 FAB Button"
   },
   "Button Mini Fab": {
     "prefix": "md2-mini-fab",
@@ -33,7 +37,8 @@
       "<button md-mini-fab>",
       "\t<md-icon class=\"${icon}\"></md-icon>",
       "</button>"
-    ]
+    ],
+    "description": "Material 2 Mini FAB Button"
   },
   "Card": {
     "prefix": "md2-card",
@@ -42,7 +47,15 @@
       "\t<md-card-title>${title}</md-card-title>",
       "\t<md-card-content></md-card-content>",
       "</md-card>"
-    ]
+    ],
+    "description": "Material 2 Card"
+  },
+  "Checkbox": {
+    "prefix": "md2-chekcbox",
+    "body": [
+      "<md2-checkbox>${content}</md2-checkbox>"
+    ],
+    "description": "Material 2 Checkbox"
   },
   "Grid List": {
     "prefix": "md2-grid-list",
@@ -53,6 +66,28 @@
       "\t\t<md-grid-tile-footer>${footer}</md-grid-tile-footer>",
       "\t</md-grid-tile>",
       "</md-grid-list>"
-    ]
+    ],
+    "description": "Material 2 Grid List"
+  },
+  "Icon": {
+    "prefix": "md2-icon",
+    "body": [
+      "<md-icon svgIcon=\"${icon}\"></md-icon>"
+    ],
+    "description": "Material 2 Icon using SVG icon"
+  },
+  "Icon SVG Src": {
+    "prefix": "md2-icon-src",
+    "body": [
+      "<md-icon svgSrc=\"${iconSrc}.svg\"></md-icon>"
+    ],
+    "description": "Material 2 Icon using SVG src"
+  },
+  "Icon Font": {
+    "prefix": "md2-icon-font",
+    "body": [
+      "<md-icon fontSet=\"${fontSet}\" fontIcon=\"${fontIcon}\"></md-icon>"
+    ],
+    "description": "Material 2 Icon using Font set"
   }
 }
