@@ -1,0 +1,58 @@
+{
+  "Button Basic": {
+    "prefix": "md2-button",
+    "body": [
+      "<button md-button>${content}</button>"
+    ]
+  },
+  "Button Icon": {
+    "prefix": "md2-icon-button",
+    "body": [
+      "<button md-icon-button>",
+      "\t<md-icon class=\"${icon}\"></md-icon>",
+      "</button>"
+    ]
+  },
+  "Button Raised": {
+    "prefix": "md2-raised-button",
+    "body": [
+      "<button md-raised-button>${content}</button>"
+    ]
+  },
+  "Button Fab": {
+    "prefix": "md2-fab",
+    "body": [
+      "<button md-fab>",
+      "\t<md-icon class=\"${icon}\"></md-icon>",
+      "</button>"
+    ]
+  },
+  "Button Mini Fab": {
+    "prefix": "md2-mini-fab",
+    "body": [
+      "<button md-mini-fab>",
+      "\t<md-icon class=\"${icon}\"></md-icon>",
+      "</button>"
+    ]
+  },
+  "Card": {
+    "prefix": "md2-card",
+    "body": [
+      "<md-card>",
+      "\t<md-card-title>${title}</md-card-title>",
+      "\t<md-card-content></md-card-content>",
+      "</md-card>"
+    ]
+  },
+  "Grid List": {
+    "prefix": "md2-grid-list",
+    "body": [
+      "<md-grid-list>",
+      "\t<md-grid-tile>",
+      "\t\t<md-grid-tile-header>${header}</md-grid-tile-header>",
+      "\t\t<md-grid-tile-footer>${footer}</md-grid-tile-footer>",
+      "\t</md-grid-tile>",
+      "</md-grid-list>"
+    ]
+  }
+}
