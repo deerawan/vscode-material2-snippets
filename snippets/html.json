@@ -51,7 +51,7 @@
     "description": "Material 2 Card"
   },
   "Checkbox": {
-    "prefix": "md2-chekcbox",
+    "prefix": "md2-checkbox",
     "body": [
       "<md2-checkbox>${content}</md2-checkbox>"
     ],

@@ -1,13 +1,46 @@
-# README
-## This is the README for your extension "angular2-material-snippets" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Material 2 Snippets for Visual Studio Code
+Material 2 Snippets for TypeScript and HTML in Visual Studio Code
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+## Usage
+Type part of a snippet, press `enter` or `tab`
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Typescript Snippets
+| Trigger                     | Description |
+| -------                     | ----------- |
+| `md2-imp-button`            | Import button component |
+| `md2-imp-card`              | Import card component |
+| `md2-imp-checkbox`          | Import checkbox component |
+| `md2-imp-icon`              | Import icon component |
+| `md2-imp-input`             | Import input component |
+| `md2-imp-list`              | Import list component |
+| `md2-imp-progress-bar`      | Import progress bar component |
+| `md2-imp-progress-circle`   | Import progress circle component |
+| `md2-imp-sidenav`           | Import sidenav component |
+| `md2-imp-tabs`              | Import tabs component |
+| `md2-imp-toolbar`           | Import toolbar component |
 
-** Enjoy!**
+## HTML Snippets
+| Trigger                   | Description |
+| -------                   | ----------- |
+| `md2-button`              | Button component |
+| `md2-icon-button`         | Icon Button component |
+| `md2-raised-button`       | Raised Button component |
+| `md2-fab`                 | FAB component |
+| `md2-mini-fab`            | Mini FAB component |
+| `md2-card`                | Card component |
+| `md2-checkbox`            | Checkbox component |
+| `md2-grid-list`           | Grid list component |
+| `md2-icon`                | Icon component |
+| `md2-icon-src`            | Icon component with SVG source |
+| `md2-icon-font`           | Icon component with font source |
+| `md2-input`               | Input component |
+| `md2-input-hint`          | Input component with hint |
+| `md2-list`                | List component |
+| `md2-dense-list`          | List component with dense type |
+| `md2-nav-list`            | Nav list component |
+| `md2-progress-bar`        | Progress bar component |
+| `md2-progress-circle`     | Progress circle component |
+| `md2-radio`               | Radio component |
+| `md2-radio-group`         | Radio group component |
+| `md2-sidenav`             | Sidenav component |
+| `md2-tab`                 | Tab component |

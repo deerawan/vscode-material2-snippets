@@ -49,7 +49,7 @@
     "description": "Material 2 Import Sidenav Component",
     "body": "import { MD_SIDENAV_DIRECTIVES } from '@angular2-material/sidenav';"
   },
-  "Import Tags": {
+  "Import Tabs": {
     "prefix": "md2-imp-tabs",
     "description": "Material 2 Import Tabs Component",
     "body": "import { MD_TABS_DIRECTIVES } from '@angular2-material/tabs';"
