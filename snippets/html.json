@@ -138,5 +138,43 @@
       "</md-nav-list>"
     ],
     "Description": "Material 2 Nav List"
+  },
+  "Progress Bar": {
+    "prefix": "md2-progress-bar",
+    "body": "<md-progress-bar mode=\"${mode}\" [value]=\"${value}\"></md-progress-bar>",
+    "Description": "Material 2 Progress Bar"
+  },
+  "Progress Circle": {
+    "prefix": "md2-progress-circle",
+    "body": "<md-progress-circle mode=\"${mode}\" [value]=\"${value}\"></md-progress-circle>",
+    "Description": "Material 2 Progress Circle"
+  },
+  "Radio": {
+    "prefix": "md2-radio",
+    "body": "<md-radio-button name=\"${name}\"></md-radio-button>"
+  },
+  "Radio Group": {
+    "prefix": "md2-radio-group",
+    "body": [
+      "<md-radio-group name=\"${name}\">",
+      "\t<md-radio-button></md-radio-button>",
+      "</md-radio-group>"
+    ]
+  },
+  "Sidenav": {
+    "prefix": "md2-sidenav",
+    "body": [
+      "<md-sidenav-layout>",
+      "\t<md-sidenav>${content}</md-sidenav>",
+      "</md-sidenav-layout>"
+    ]
+  },
+  "Tab": {
+    "prefix": "md2-tab",
+    "body": [
+      "<md-tab-group>",
+      "\t<md-tab>${content}</md-tab>",
+      "</md-tab-group>"
+    ]
   }
 }
