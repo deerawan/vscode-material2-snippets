@@ -5,6 +5,11 @@
   "displayName": "Material 2 Snippets",
   "description": "Material 2 Snippets",
   "license": "See License in LICENSE.md",
+  "icon": "images/angular.png",
+  "galleryBanner": {
+    "color": "#007F71",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/deerawan/vscode-material2-snippets"
