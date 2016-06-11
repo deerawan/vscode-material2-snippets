@@ -1,6 +1,8 @@
 # Material 2 Snippets for Visual Studio Code
 Material 2 Snippets for TypeScript and HTML in Visual Studio Code
 
+![Material 2 Snippets Usage](images/material2-snippets-usage.gif)
+
 ## Installation
 Type `cmd-shift-p`/`ctrl-shift-p` to launch command palette and choose `Extensions: Install Extension`. Search for `Material 2 Snippets` and install.
 

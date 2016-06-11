@@ -45,7 +45,7 @@
     "body": [
       "<md-card>",
       "\t<md-card-title>${title}</md-card-title>",
-      "\t<md-card-content></md-card-content>",
+      "\t<md-card-content>${content}</md-card-content>",
       "</md-card>"
     ],
     "description": "Material 2 Card"
