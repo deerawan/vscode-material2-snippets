@@ -111,8 +111,8 @@
     "body": [
       "<md-list>",
       "\t<md-list-item *ngFor=\"${ngFor}\">",
-      "\t\t<p md-line></md-line>",
-      "\t</md-list>",
+      "\t\t<p md-line></p>",
+      "\t</md-list-item>",
       "</md-list>"
     ],
     "Description": "Material 2 List"
@@ -122,8 +122,8 @@
     "body": [
       "<md-list dense>",
       "\t<md-list-item *ngFor=\"${ngFor}\">",
-      "\t\t<p md-line></md-line>",
-      "\t</md-list>",
+      "\t\t<p md-line></p>",
+      "\t</md-list-item>",
       "</md-list>"
     ],
     "Description": "Material 2 Dense List"
@@ -133,8 +133,8 @@
     "body": [
       "<md-nav-list>",
       "\t<md-list-item *ngFor=\"${ngFor}\">",
-      "\t\t<p md-line></md-line>",
-      "\t</md-list>",
+      "\t\t<p md-line></p>",
+      "\t</md-list-item>",
       "</md-nav-list>"
     ],
     "Description": "Material 2 Nav List"
