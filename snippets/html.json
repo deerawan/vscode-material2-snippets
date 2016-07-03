@@ -151,7 +151,8 @@
   },
   "Radio": {
     "prefix": "md2-radio",
-    "body": "<md-radio-button name=\"${name}\"></md-radio-button>"
+    "body": "<md-radio-button name=\"${name}\"></md-radio-button>",
+    "Description": "Material 2 Radio Button"
   },
   "Radio Group": {
     "prefix": "md2-radio-group",
@@ -159,7 +160,8 @@
       "<md-radio-group name=\"${name}\">",
       "\t<md-radio-button></md-radio-button>",
       "</md-radio-group>"
-    ]
+    ],
+    "Description": "Material 2 Radio Group"
   },
   "Sidenav": {
     "prefix": "md2-sidenav",
@@ -167,7 +169,8 @@
       "<md-sidenav-layout>",
       "\t<md-sidenav>${content}</md-sidenav>",
       "</md-sidenav-layout>"
-    ]
+    ],
+    "Description": "Material 2 Side Nav"
   },
   "Tab": {
     "prefix": "md2-tab",
@@ -175,6 +178,7 @@
       "<md-tab-group>",
       "\t<md-tab>${content}</md-tab>",
       "</md-tab-group>"
-    ]
+    ],
+    "Description": "Material 2 Tab"
   }
 }
