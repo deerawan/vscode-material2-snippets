@@ -43,10 +43,17 @@
   "Card": {
     "prefix": "md2-card",
     "body": [
-      "<md-card>",
-      "\t<md-card-title>${title}</md-card-title>",
-      "\t<md-card-content>${content}</md-card-content>",
-      "</md-card>"
+       "<md-card>",
+        "\t<md-card-header>",
+        "\t\t<img md-card-avatar src=\"${1}\">",
+        "\t\t<md-card-title>$2</md-card-title>",
+        "\t\t<md-card-subtitle>${3}</md-card-subtitle>",
+        "\t</md-card-header>",
+        "\t<img md-card-image src=\"${4}\">",
+        "\t<md-card-content>",
+        "\t\t<p>${5}</p>",
+        "\t</md-card-content>",
+        "</md-card>"
     ],
     "description": "Material 2 Card"
   },
