@@ -60,7 +60,23 @@
     "body": [
       "<a md-mini-fab routerLink=\"${link}\"><md-icon>${icon}</md-icon></a>"
     ],
-    "description": "Material 2 Mini FAB Button"
+    "description": "Material 2 Mini FAB Button with Link"
+  },
+  "Button Toggle": {
+    "prefix": "md2-btn-toggle",
+    "body": [
+      "<md-button-toggle>${text}</md-button-toggle>"
+    ],
+    "description": "Material 2 Button Toggle"
+  },
+  "Button Toggle Group": {
+    "prefix": "md2-btn-toggle-group",
+    "body": [
+      "<md-button-toggle-group #group=\"${groupName}\">",
+      "\t<md-button-toggle value=\"${value}\">${content}</md-button-toggle>",
+      "</md-button-toggle-group>"
+    ],
+    "description": "Material 2 Button Toggle Group"
   },
   "Card": {
     "prefix": "md2-card",
