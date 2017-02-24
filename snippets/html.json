@@ -1,42 +1,64 @@
 {
   "Button Basic": {
-    "prefix": "md2-button",
+    "prefix": "md2-btn",
     "body": [
-      "<button md-button>${content}</button>"
+      "<button md-button>${text}</button>"
     ],
     "description": "Material 2 Button"
   },
-  "Button Icon": {
-    "prefix": "md2-icon-button",
+  "Button Basic with Link": {
+    "prefix": "md2-btn-link",
     "body": [
-      "<button md-icon-button>",
-      "\t<md-icon class=\"${icon}\"></md-icon>",
-      "</button>"
+      "<a md-button routerLink=\"${link}\">${text}</a>"
+    ],
+    "description": "Material 2 Button with Link"
+  },
+  "Button Icon": {
+    "prefix": "md2-icon-btn",
+    "body": [
+      "<button md-icon-button><md-icon>${icon}</md-icon></button>"
     ],
     "description": "Material 2 Icon Button"
   },
   "Button Raised": {
-    "prefix": "md2-raised-button",
+    "prefix": "md2-raised-btn",
     "body": [
       "<button md-raised-button>${content}</button>"
     ],
     "description": "Material 2 Raised Button"
   },
+  "Button Raised with Link": {
+    "prefix": "md2-raised-btn-link",
+    "body": [
+      "<a md-raised-button routerLink=\"${link}\">${text}</a>"
+    ],
+    "description": "Material 2 Raised Button with Link"
+  },
   "Button Fab": {
     "prefix": "md2-fab",
     "body": [
-      "<button md-fab>",
-      "\t<md-icon class=\"${icon}\"></md-icon>",
-      "</button>"
+      "<button md-fab><md-icon>${icon}</md-icon></button>"
     ],
     "description": "Material 2 FAB Button"
+  },
+  "Button Fab with Link": {
+    "prefix": "md2-fab-link",
+    "body": [
+      "<a md-fab routerLink=\"${link}\"><md-icon>${icon}</md-icon></a>"
+    ],
+    "description": "Material 2 FAB Button with Link"
   },
   "Button Mini Fab": {
     "prefix": "md2-mini-fab",
     "body": [
-      "<button md-mini-fab>",
-      "\t<md-icon class=\"${icon}\"></md-icon>",
-      "</button>"
+      "<button md-mini-fab><md-icon>${icon}</md-icon></button>"
+    ],
+    "description": "Material 2 Mini FAB Button"
+  },
+  "Button Mini Fab with Link": {
+    "prefix": "md2-mini-fab-link",
+    "body": [
+      "<a md-mini-fab routerLink=\"${link}\"><md-icon>${icon}</md-icon></a>"
     ],
     "description": "Material 2 Mini FAB Button"
   },
