@@ -1,6 +1,6 @@
 {
   "Autocomplete": {
-    "prefix": "md2-autocomplete",
+    "prefix": "md2-auto",
     "body": [
       "<md-autocomplete #${name}=\"mdAutocomplete\">",
       "\t<md-option></md-option>",
@@ -22,17 +22,10 @@
     ],
     "description": "Material 2 Button with Link"
   },
-  "Button Icon": {
-    "prefix": "md2-icon-btn",
-    "body": [
-      "<button md-icon-button><md-icon>${icon}</md-icon></button>"
-    ],
-    "description": "Material 2 Icon Button"
-  },
   "Button Raised": {
     "prefix": "md2-raised-btn",
     "body": [
-      "<button md-raised-button>${content}</button>"
+      "<button md-raised-button>${text}</button>"
     ],
     "description": "Material 2 Raised Button"
   },
@@ -79,7 +72,7 @@
     "description": "Material 2 Button Toggle"
   },
   "Button Toggle Group": {
-    "prefix": "md2-btn-toggle-group",
+    "prefix": "md2-btn-toggle-grp",
     "body": [
       "<md-button-toggle-group #group=\"${groupName}\">",
       "\t<md-button-toggle value=\"${value}\">${content}</md-button-toggle>",
@@ -157,7 +150,7 @@
     "description": "Material 2 Input"
   },
   "Input Textarea": {
-    "prefix": "md2-input-textarea",
+    "prefix": "md2-textarea",
     "body": [
       "<md-input-container>",
       "\t<textarea mdInput placeholder=\"${placeholder}\">${value}</textarea>",
@@ -196,7 +189,7 @@
     "Description": "Material 2 Menu with Icon"
   },
   "Progress Bar": {
-    "prefix": "md2-progress-bar",
+    "prefix": "md2-prog-bar",
     "body": "<md-progress-bar mode=\"${mode}\"></md-progress-bar>",
     "Description": "Material 2 Progress Bar"
   },
@@ -206,7 +199,7 @@
     "Description": "Material 2 Spinner"
   },
   "Progress Circle": {
-    "prefix": "md2-progress-circle",
+    "prefix": "md2-prog-circle",
     "body": "<md-progress-circle mode=\"${mode}\" [value]=\"${value}\" [color]=\"${color}\"></md-progress-circle>",
     "Description": "Material 2 Progress Circle"
   },
@@ -245,7 +238,7 @@
     "Description": "Material 2 Slider"
   },
   "Slide Toogle": {
-    "prefix": "md2-slide-toggle",
+    "prefix": "md2-slide",
     "body": [
       "<md-slide-toggle>${text}</md-slide-toggle>"
     ],
@@ -268,7 +261,7 @@
     "Description": "Material 2 Toolbar"
   },
   "Toolbar Multirow": {
-    "prefix": "md2-toolbar-multi",
+    "prefix": "md2-toolbar-row",
     "body": [
       "<md-toolbar>",
       "\t<md-toolbar-row>",
