@@ -40,7 +40,7 @@ Type part of a snippet, press `enter` or `tab`
 | `md2-card-section`        | Card component with sections (header, content, actions) |
 | `md2-checkbox`            | Checkbox component |
 | `md2-chip`                | Chips component |
-| `md2-grid-list`           | Grid list component |
+| `md2-grid`                | Grid list component |
 | `md2-icon`                | Icon component |
 | `md2-icon-svg`            | Icon with custom svg component |
 | `md2-input`               | Input component |

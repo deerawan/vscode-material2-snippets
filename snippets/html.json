@@ -118,7 +118,7 @@
     "description": "Material 2 Chips"
   },
   "Grid List": {
-    "prefix": "md2-grid-list",
+    "prefix": "md2-grid",
     "body": [
       "<md-grid-list cols=\"${cols}\">",
       "\t<md-grid-tile>${text}</md-grid-tile>",
@@ -276,7 +276,7 @@
   "Tooltip": {
     "prefix": "md2-tooltip",
     "body": [
-      "mdTooltip=\"Tooltip!\""
+      "<${dom} mdTooltip=\"Tooltip!\"></${dom}>"
     ]
   }
 }
