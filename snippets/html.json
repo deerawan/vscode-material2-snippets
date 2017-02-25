@@ -95,6 +95,15 @@
     ],
     "description": "Material 2 Checkbox"
   },
+  "Chips": {
+    "prefix": "md2-chip",
+    "body": [
+      "<md-chip-list>",
+      "\t<md-chip>${text}</md-chip>",
+      "</md-chip-list>"
+    ],
+    "description": "Material 2 Chips"
+  },
   "Grid List": {
     "prefix": "md2-grid-list",
     "body": [
@@ -109,6 +118,13 @@
   },
   "Icon": {
     "prefix": "md2-icon",
+    "body": [
+      "<md-icon>${icon}</md-icon>"
+    ],
+    "description": "Material 2 Icon"
+  },
+  "Icon SVG": {
+    "prefix": "md2-icon-svg",
     "body": [
       "<md-icon svgIcon=\"${icon}\"></md-icon>"
     ],
