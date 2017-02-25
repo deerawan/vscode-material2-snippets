@@ -195,12 +195,17 @@
   },
   "Progress Bar": {
     "prefix": "md2-progress-bar",
-    "body": "<md-progress-bar mode=\"${mode}\" [value]=\"${value}\"></md-progress-bar>",
+    "body": "<md-progress-bar mode=\"${mode}\"></md-progress-bar>",
     "Description": "Material 2 Progress Bar"
+  },
+  "Progress Spinner": {
+    "prefix": "md2-spinner",
+    "body": "<md-spinner></md-spinner>",
+    "Description": "Material 2 Spinner"
   },
   "Progress Circle": {
     "prefix": "md2-progress-circle",
-    "body": "<md-progress-circle mode=\"${mode}\" [value]=\"${value}\"></md-progress-circle>",
+    "body": "<md-progress-circle mode=\"${mode}\" [value]=\"${value}\" [color]=\"${color}\"></md-progress-circle>",
     "Description": "Material 2 Progress Circle"
   },
   "Radio": {
