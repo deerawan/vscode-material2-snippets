@@ -14,10 +14,15 @@
     "description": "Material 2 Import Checkbox Component",
     "body": "import { MD_CHECKBOX_DIRECTIVES } from '@angular2-material/checkbox';"
   },
+  "Import Dialog": {
+    "prefix": "md2-imp-dialog",
+    "description": "Material 2 Import Dialog",
+    "body": "import { MdDialog, MdDialogRef } from '@angular/material';"
+  },
   "Import Icon": {
     "prefix": "md2-imp-icon",
-    "description": "Material 2 Import Icon Component",
-    "body": "import { MD_ICON_DIRECTIVES, MdIconRegistry } from '@angular2-material/icon';"
+    "description": "Material 2 Import Icon Registry",
+    "body": "import { MdIconRegistry } from '@angular2-material';"
   },
   "Import Input": {
     "prefix": "md2-imp-input",
@@ -48,6 +53,11 @@
     "prefix": "md2-imp-sidenav",
     "description": "Material 2 Import Sidenav Component",
     "body": "import { MD_SIDENAV_DIRECTIVES } from '@angular2-material/sidenav';"
+  },
+  "Import Snackbar": {
+    "prefix": "md2-imp-snackbar",
+    "description": "Material 2 Import Snackbar",
+    "body": "import { MdSnackBar } from '@angular/material';"
   },
   "Import Tabs": {
     "prefix": "md2-imp-tabs",

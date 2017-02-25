@@ -1,4 +1,13 @@
 {
+  "Autocomplete": {
+    "prefix": "md2-autocomplete",
+    "body": [
+      "<md-autocomplete #${name}=\"mdAutocomplete\">",
+      "\t<md-option></md-option>",
+      "</md-autocomplete>"
+    ],
+    "description": "Material 2 Autocomplete"
+  },
   "Button Basic": {
     "prefix": "md2-btn",
     "body": [
@@ -91,7 +100,7 @@
   "Checkbox": {
     "prefix": "md2-checkbox",
     "body": [
-      "<md-checkbox>${content}</md-checkbox>"
+      "<md-checkbox>${text}</md-checkbox>"
     ],
     "description": "Material 2 Checkbox"
   },
@@ -147,18 +156,20 @@
   "Input": {
     "prefix": "md2-input",
     "body": [
-      "<md-input placeholder=\"${placeholder}\" value=\"${value}\"></md-input>"
+      "<md-input-container>",
+      "\t<input mdInput placeholder=\"${placeholder}\">",
+      "</md-input-container>"
     ],
     "description": "Material 2 Input"
   },
-  "Input with hint": {
-    "prefix": "md2-input-hint",
+  "Input Textarea": {
+    "prefix": "md2-input-textarea",
     "body": [
-      "<md-input placeholder=\"${placeholder}\" value=\"${value}\">",
-      "\t<md-hint align=\"${align}\"></md-hint>",
-      "</md-input>"
+      "<md-input-container>",
+      "\t<textarea mdInput placeholder=\"${placeholder}\">${value}</textarea>",
+      "</md-input-container>"
     ],
-    "description": "Material 2 Input with hint"
+    "description": "Material 2 Input Textarea"
   },
   "List": {
     "prefix": "md2-list",
@@ -210,17 +221,21 @@
   },
   "Radio": {
     "prefix": "md2-radio",
-    "body": "<md-radio-button name=\"${name}\"></md-radio-button>",
-    "Description": "Material 2 Radio Button"
-  },
-  "Radio Group": {
-    "prefix": "md2-radio-group",
     "body": [
-      "<md-radio-group name=\"${name}\">",
+      "<md-radio-group>",
       "\t<md-radio-button></md-radio-button>",
       "</md-radio-group>"
     ],
-    "Description": "Material 2 Radio Group"
+    "Description": "Material 2 Radio"
+  },
+  "Select": {
+    "prefix": "md2-select",
+    "body": [
+      "<md-select placeholder=\"${placeholder}\" name=\"${name}\">",
+      "\t<md-option></md-option>",
+      "</md-select>"
+    ],
+    "Description": "Material 2 Select"
   },
   "Sidenav": {
     "prefix": "md2-sidenav",
@@ -231,6 +246,20 @@
     ],
     "Description": "Material 2 Side Nav"
   },
+  "Slider": {
+    "prefix": "md2-slider",
+    "body": [
+      "<md-slider></md-slider>"
+    ],
+    "Description": "Material 2 Slider"
+  },
+  "Slide Toogle": {
+    "prefix": "md2-slide-toggle",
+    "body": [
+      "<md-slide-toggle>${text}</md-slide-toggle>"
+    ],
+    "Description": "Material 2 Slide Toggle"
+  },
   "Tab": {
     "prefix": "md2-tab",
     "body": [
@@ -239,5 +268,11 @@
       "</md-tab-group>"
     ],
     "Description": "Material 2 Tab"
+  },
+  "Tooltip": {
+    "prefix": "md2-tooltip",
+    "body": [
+      "mdTooltip=\"Tooltip!\""
+    ]
   }
 }
