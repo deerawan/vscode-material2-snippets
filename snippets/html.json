@@ -90,12 +90,23 @@
   "Card": {
     "prefix": "md2-card",
     "body": [
-      "<md-card>",
-      "\t<md-card-title>${title}</md-card-title>",
-      "\t<md-card-content>${content}</md-card-content>",
-      "</md-card>"
+      "<md-card>${text}</md-card>"
     ],
     "description": "Material 2 Card"
+  },
+  "Card Multi Sections": {
+    "prefix": "md2-card-section",
+    "body": [
+      "<md-card>",
+      "\t<md-card-header>",
+      "\t\t<md-card-title>${title}</md-card-title>",
+      "\t\t<md-card-subtitle>${subTitle}</md-card-subtitle>",
+      "\t</md-card-header>",
+      "\t<md-card-content>${content}</md-card-content>",
+      "\t<md-card-actions>${actions}</md-card-actions>",
+      "</md-card>"
+    ],
+    "description": "Material 2 Card with Sections"
   },
   "Checkbox": {
     "prefix": "md2-checkbox",
@@ -116,11 +127,8 @@
   "Grid List": {
     "prefix": "md2-grid-list",
     "body": [
-      "<md-grid-list>",
-      "\t<md-grid-tile>",
-      "\t\t<md-grid-tile-header>${header}</md-grid-tile-header>",
-      "\t\t<md-grid-tile-footer>${footer}</md-grid-tile-footer>",
-      "\t</md-grid-tile>",
+      "<md-grid-list cols=\"${cols}\">",
+      "\t<md-grid-tile>${text}</md-grid-tile>",
       "</md-grid-list>"
     ],
     "description": "Material 2 Grid List"
@@ -138,20 +146,6 @@
       "<md-icon svgIcon=\"${icon}\"></md-icon>"
     ],
     "description": "Material 2 Icon using SVG icon"
-  },
-  "Icon SVG Src": {
-    "prefix": "md2-icon-src",
-    "body": [
-      "<md-icon svgSrc=\"${iconSrc}.svg\"></md-icon>"
-    ],
-    "description": "Material 2 Icon using SVG src"
-  },
-  "Icon Font": {
-    "prefix": "md2-icon-font",
-    "body": [
-      "<md-icon fontSet=\"${fontSet}\" fontIcon=\"${fontIcon}\"></md-icon>"
-    ],
-    "description": "Material 2 Icon using Font set"
   },
   "Input": {
     "prefix": "md2-input",
@@ -175,34 +169,31 @@
     "prefix": "md2-list",
     "body": [
       "<md-list>",
-      "\t<md-list-item *ngFor=\"${ngFor}\">",
-      "\t\t<p md-line></p>",
-      "\t</md-list-item>",
+      "\t<md-list-item>${text}</md-list-item>",
       "</md-list>"
     ],
     "Description": "Material 2 List"
   },
-  "List Dense": {
-    "prefix": "md2-dense-list",
+  "Menu": {
+    "prefix": "md2-menu",
     "body": [
-      "<md-list dense>",
-      "\t<md-list-item *ngFor=\"${ngFor}\">",
-      "\t\t<p md-line></p>",
-      "\t</md-list-item>",
-      "</md-list>"
+      "<md-menu #${name}=\"mdMenu\">",
+      "\t<button md-menu-item>${text}</button>",
+      "</md-menu>"
     ],
-    "Description": "Material 2 Dense List"
+    "Description": "Material 2 Menu"
   },
-  "List Nav": {
-    "prefix": "md2-nav-list",
+  "Menu Icon": {
+    "prefix": "md2-menu-icon",
     "body": [
-      "<md-nav-list>",
-      "\t<md-list-item *ngFor=\"${ngFor}\">",
-      "\t\t<p md-line></p>",
-      "\t</md-list-item>",
-      "</md-nav-list>"
+      "<md-menu #${name}=\"mdMenu\">",
+      "\t<button md-menu-item>",
+      "\t\t<md-icon>${iconName}</md-icon>",
+      "\t\t<span>${text}</span>",
+      "\t</button>",
+      "</md-menu>"
     ],
-    "Description": "Material 2 Nav List"
+    "Description": "Material 2 Menu with Icon"
   },
   "Progress Bar": {
     "prefix": "md2-progress-bar",
@@ -240,9 +231,9 @@
   "Sidenav": {
     "prefix": "md2-sidenav",
     "body": [
-      "<md-sidenav-layout>",
+      "<md-sidenav-container>",
       "\t<md-sidenav>${content}</md-sidenav>",
-      "</md-sidenav-layout>"
+      "</md-sidenav-container>"
     ],
     "Description": "Material 2 Side Nav"
   },
@@ -264,10 +255,30 @@
     "prefix": "md2-tab",
     "body": [
       "<md-tab-group>",
-      "\t<md-tab>${content}</md-tab>",
+      "\t<md-tab label=\"${label}\">${content}</md-tab>",
       "</md-tab-group>"
     ],
     "Description": "Material 2 Tab"
+  },
+  "Toolbar": {
+    "prefix": "md2-toolbar",
+    "body": [
+      "<md-toolbar>${text}</md-toolbar>"
+    ],
+    "Description": "Material 2 Toolbar"
+  },
+  "Toolbar Multirow": {
+    "prefix": "md2-toolbar-multi",
+    "body": [
+      "<md-toolbar>",
+      "\t<md-toolbar-row>",
+      "\t\t<span>${text}</span>",
+      "\t\t<span class=\"example-spacer\"></span>",
+      "\t\t<md-icon></md-icon>",
+      "\t</md-toolbar-row>",
+      "</md-toolbar>"
+    ],
+    "Description": "Material 2 Toolbar Multi Row"
   },
   "Tooltip": {
     "prefix": "md2-tooltip",
