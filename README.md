@@ -18,45 +18,47 @@ Type part of a snippet, press `enter` or `tab`
 ## Typescript Snippets
 | Trigger                     | Description |
 | -------                     | ----------- |
-| `md2-imp-dialog`            | Import dialog component |
-| `md2-imp-icon`              | Import icon component |
-| `md2-imp-snackbar`          | Import snackbar component |
+| `mat-imp-dialog`            | Import dialog component |
+| `mat-imp-icon`              | Import icon component |
+| `mat-imp-snackbar`          | Import snackbar component |
 
 ## HTML Snippets
 | Trigger                   | Description |
 | -------                   | ----------- |
-| `md2-auto`                | Autocomplete component |
-| `md2-btn`                 | Button component |
-| `md2-btn-link`            | Button with routerLink component |
-| `md2-raised-btn`          | Raised Button component |
-| `md2-raised-btn-link`     | Raised Button with routerLink component |
-| `md2-fab`                 | FAB component |
-| `md2-fab-link`            | FAB with routerLink component |
-| `md2-mini-fab`            | Mini FAB component |
-| `md2-mini-fab-link`       | Mini FAB with routerLink component |
-| `md2-btn-toggle`          | Button Toggle component |
-| `md2-btn-toggle-grp`      | Button Toggle Group component |
-| `md2-card`                | Card component |
-| `md2-card-section`        | Card component with sections (header, content, actions) |
-| `md2-checkbox`            | Checkbox component |
-| `md2-chip`                | Chips component |
-| `md2-grid`                | Grid list component |
-| `md2-icon`                | Icon component |
-| `md2-icon-svg`            | Icon with custom svg component |
-| `md2-input`               | Input component |
-| `md2-textarea`            | Textarea component |
-| `md2-list`                | List component |
-| `md2-menu`                | Menu component |
-| `md2-menu-icon`           | Menu with icon component |
-| `md2-prog-bar`            | Progress bar component |
-| `md2-prog-circle`         | Progress circle component |
-| `md2-spinner`             | spinner component |
-| `md2-radio`               | Radio component |
-| `md2-select`              | Select component |
-| `md2-sidenav`             | Sidenav component |
-| `md2-slider`              | Slider component |
-| `md2-slide`               | Slide component |
-| `md2-tab`                 | Tab component |
-| `md2-toolbar`             | Toolbar component |
-| `md2-toolbar-row`         | Toolbar with row component |
-| `md2-tooltip`             | Tooltip component |
+| `mat-auto`                | Autocomplete component |
+| `mat-btn`                 | Button component |
+| `mat-btn-link`            | Button with routerLink component |
+| `mat-raised-btn`          | Raised Button component |
+| `mat-raised-btn-link`     | Raised Button with routerLink component |
+| `mat-fab`                 | FAB component |
+| `mat-fab-link`            | FAB with routerLink component |
+| `mat-mini-fab`            | Mini FAB component |
+| `mat-mini-fab-link`       | Mini FAB with routerLink component |
+| `mat-btn-toggle`          | Button Toggle component |
+| `mat-btn-toggle-grp`      | Button Toggle Group component |
+| `mat-card`                | Card component |
+| `mat-card-section`        | Card component with sections (header, content, actions) |
+| `mat-checkbox`            | Checkbox component |
+| `mat-chip`                | Chips component |
+| `mat-date-pick`           | Date Picker component |
+| `mat-exp-panel`           | Expansion Panel component |
+| `mat-grid`                | Grid list component |
+| `mat-icon`                | Icon component |
+| `mat-icon-svg`            | Icon with custom svg component |
+| `mat-input`               | Input component |
+| `mat-textarea`            | Textarea component |
+| `mat-list`                | List component |
+| `mat-menu`                | Menu component |
+| `mat-menu-icon`           | Menu with icon component |
+| `mat-prog-bar`            | Progress bar component |
+| `mat-prog-spin`           | Progress spinner component |
+| `mat-radio`               | Radio component |
+| `mat-select`              | Select component |
+| `mat-sidenav`             | Sidenav component |
+| `mat-slider`              | Slider component |
+| `mat-slide`               | Slide component |
+| `mat-step`                | Stepper component |
+| `mat-tab`                 | Tab component |
+| `mat-toolbar`             | Toolbar component |
+| `mat-toolbar-row`         | Toolbar with row component |
+| `mat-tooltip`             | Tooltip component |

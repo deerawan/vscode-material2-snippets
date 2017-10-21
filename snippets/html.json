@@ -1,282 +1,316 @@
 {
   "Autocomplete": {
-    "prefix": "md2-auto",
+    "prefix": "mat-auto",
     "body": [
-      "<md-autocomplete #${name}=\"mdAutocomplete\">",
-      "\t<md-option></md-option>",
-      "</md-autocomplete>"
+      "<mat-autocomplete #${name}=\"matAutocomplete\">",
+      "\t<mat-option></mat-option>",
+      "</mat-autocomplete>"
     ],
     "description": "Material 2 Autocomplete"
   },
   "Button Basic": {
-    "prefix": "md2-btn",
+    "prefix": "mat-btn",
     "body": [
-      "<button md-button>${text}</button>"
+      "<button mat-button>${text}</button>"
     ],
     "description": "Material 2 Button"
   },
   "Button Basic with Link": {
-    "prefix": "md2-btn-link",
+    "prefix": "mat-btn-link",
     "body": [
-      "<a md-button routerLink=\"${link}\">${text}</a>"
+      "<a mat-button routerLink=\"${link}\">${text}</a>"
     ],
     "description": "Material 2 Button with Link"
   },
   "Button Raised": {
-    "prefix": "md2-raised-btn",
+    "prefix": "mat-raised-btn",
     "body": [
-      "<button md-raised-button>${text}</button>"
+      "<button mat-raised-button>${text}</button>"
     ],
     "description": "Material 2 Raised Button"
   },
   "Button Raised with Link": {
-    "prefix": "md2-raised-btn-link",
+    "prefix": "mat-raised-btn-link",
     "body": [
-      "<a md-raised-button routerLink=\"${link}\">${text}</a>"
+      "<a mat-raised-button routerLink=\"${link}\">${text}</a>"
     ],
     "description": "Material 2 Raised Button with Link"
   },
   "Button Fab": {
-    "prefix": "md2-fab",
+    "prefix": "mat-fab",
     "body": [
-      "<button md-fab><md-icon>${icon}</md-icon></button>"
+      "<button mat-fab><mat-icon>${icon}</mat-icon></button>"
     ],
     "description": "Material 2 FAB Button"
   },
   "Button Fab with Link": {
-    "prefix": "md2-fab-link",
+    "prefix": "mat-fab-link",
     "body": [
-      "<a md-fab routerLink=\"${link}\"><md-icon>${icon}</md-icon></a>"
+      "<a mat-fab routerLink=\"${link}\"><mat-icon>${icon}</mat-icon></a>"
     ],
     "description": "Material 2 FAB Button with Link"
   },
   "Button Mini Fab": {
-    "prefix": "md2-mini-fab",
+    "prefix": "mat-mini-fab",
     "body": [
-      "<button md-mini-fab><md-icon>${icon}</md-icon></button>"
+      "<button mat-mini-fab><mat-icon>${icon}</mat-icon></button>"
     ],
     "description": "Material 2 Mini FAB Button"
   },
   "Button Mini Fab with Link": {
-    "prefix": "md2-mini-fab-link",
+    "prefix": "mat-mini-fab-link",
     "body": [
-      "<a md-mini-fab routerLink=\"${link}\"><md-icon>${icon}</md-icon></a>"
+      "<a mat-mini-fab routerLink=\"${link}\"><mat-icon>${icon}</mat-icon></a>"
     ],
     "description": "Material 2 Mini FAB Button with Link"
   },
   "Button Toggle": {
-    "prefix": "md2-btn-toggle",
+    "prefix": "mat-btn-toggle",
     "body": [
-      "<md-button-toggle>${text}</md-button-toggle>"
+      "<mat-button-toggle>${text}</mat-button-toggle>"
     ],
     "description": "Material 2 Button Toggle"
   },
   "Button Toggle Group": {
-    "prefix": "md2-btn-toggle-grp",
+    "prefix": "mat-btn-toggle-grp",
     "body": [
-      "<md-button-toggle-group #group=\"${groupName}\">",
-      "\t<md-button-toggle value=\"${value}\">${content}</md-button-toggle>",
-      "</md-button-toggle-group>"
+      "<mat-button-toggle-group #group=\"${groupName}\">",
+      "\t<mat-button-toggle value=\"${value}\">${content}</mat-button-toggle>",
+      "</mat-button-toggle-group>"
     ],
     "description": "Material 2 Button Toggle Group"
   },
   "Card": {
-    "prefix": "md2-card",
+    "prefix": "mat-card",
     "body": [
-      "<md-card>${text}</md-card>"
+      "<mat-card>${text}</mat-card>"
     ],
     "description": "Material 2 Card"
   },
   "Card Multi Sections": {
-    "prefix": "md2-card-section",
+    "prefix": "mat-card-section",
     "body": [
-      "<md-card>",
-      "\t<md-card-header>",
-      "\t\t<md-card-title>${title}</md-card-title>",
-      "\t\t<md-card-subtitle>${subTitle}</md-card-subtitle>",
-      "\t</md-card-header>",
-      "\t<md-card-content>${content}</md-card-content>",
-      "\t<md-card-actions>${actions}</md-card-actions>",
-      "</md-card>"
+      "<mat-card>",
+      "\t<mat-card-header>",
+      "\t\t<mat-card-title>${title}</mat-card-title>",
+      "\t\t<mat-card-subtitle>${subTitle}</mat-card-subtitle>",
+      "\t</mat-card-header>",
+      "\t<mat-card-content>${content}</mat-card-content>",
+      "\t<mat-card-actions>${actions}</mat-card-actions>",
+      "</mat-card>"
     ],
     "description": "Material 2 Card with Sections"
   },
   "Checkbox": {
-    "prefix": "md2-checkbox",
+    "prefix": "mat-checkbox",
     "body": [
-      "<md-checkbox>${text}</md-checkbox>"
+      "<mat-checkbox>${text}</mat-checkbox>"
     ],
     "description": "Material 2 Checkbox"
   },
   "Chips": {
-    "prefix": "md2-chip",
+    "prefix": "mat-chip",
     "body": [
-      "<md-chip-list>",
-      "\t<md-chip>${text}</md-chip>",
-      "</md-chip-list>"
+      "<mat-chip-list>",
+      "\t<mat-chip>${text}</mat-chip>",
+      "</mat-chip-list>"
     ],
     "description": "Material 2 Chips"
   },
-  "Grid List": {
-    "prefix": "md2-grid",
+  "Date Picker": {
+    "prefix": "mat-date-pick",
     "body": [
-      "<md-grid-list cols=\"${cols}\">",
-      "\t<md-grid-tile>${text}</md-grid-tile>",
-      "</md-grid-list>"
+      "<mat-form-field>",
+      "\t<input matInput [matDatepicker]=\"${name}\" placeholder=\"${placeholder}\">",
+      "\t<mat-datepicker-toggle matSuffix [for]=\"${name}\"></mat-datepicker-toggle>",
+      "\t<mat-datepicker #${name}></mat-datepicker>",
+      "</mat-form-field>"
+    ]
+  },
+  "Expansion Panel": {
+    "prefix": "mat-exp-panel",
+    "body": [
+      "<mat-expansion-panel>",
+      "\t<mat-expansion-panel-header>",
+      "\t\t<mat-panel-title>${title}</mat-panel-title>",
+      "\t\t<mat-panel-description>${description}</mat-panel-description>",
+      "\t</mat-expansion-panel-header>",
+      "\t${primaryContent}",
+      "</mat-expansion-panel>"
+    ]
+  },
+  "Grid List": {
+    "prefix": "mat-grid",
+    "body": [
+      "<mat-grid-list cols=\"${cols}\">",
+      "\t<mat-grid-tile>${text}</mat-grid-tile>",
+      "</mat-grid-list>"
     ],
     "description": "Material 2 Grid List"
   },
   "Icon": {
-    "prefix": "md2-icon",
+    "prefix": "mat-icon",
     "body": [
-      "<md-icon>${icon}</md-icon>"
+      "<mat-icon>${icon}</mat-icon>"
     ],
     "description": "Material 2 Icon"
   },
   "Icon SVG": {
-    "prefix": "md2-icon-svg",
+    "prefix": "mat-icon-svg",
     "body": [
-      "<md-icon svgIcon=\"${icon}\"></md-icon>"
+      "<mat-icon svgIcon=\"${icon}\"></mat-icon>"
     ],
     "description": "Material 2 Icon using SVG icon"
   },
   "Input": {
-    "prefix": "md2-input",
+    "prefix": "mat-input",
     "body": [
-      "<md-input-container>",
-      "\t<input mdInput placeholder=\"${placeholder}\">",
-      "</md-input-container>"
+      "<mat-form-field class=\"${className}\">",
+      "\t<input matInput placeholder=\"${placeholder}\">",
+      "</mat-form-field>"
     ],
     "description": "Material 2 Input"
   },
   "Input Textarea": {
-    "prefix": "md2-textarea",
+    "prefix": "mat-textarea",
     "body": [
-      "<md-input-container>",
-      "\t<textarea mdInput placeholder=\"${placeholder}\">${value}</textarea>",
-      "</md-input-container>"
+      "<mat-form-field class=\"${className}\">",
+      "\t<textarea matInput placeholder=\"${placeholder}\">${value}</textarea>",
+      "</mat-form-field>"
     ],
     "description": "Material 2 Input Textarea"
   },
   "List": {
-    "prefix": "md2-list",
+    "prefix": "mat-list",
     "body": [
-      "<md-list>",
-      "\t<md-list-item>${text}</md-list-item>",
-      "</md-list>"
+      "<mat-list>",
+      "\t<mat-list-item>${text}</mat-list-item>",
+      "</mat-list>"
     ],
     "Description": "Material 2 List"
   },
   "Menu": {
-    "prefix": "md2-menu",
+    "prefix": "mat-menu",
     "body": [
-      "<md-menu #${name}=\"mdMenu\">",
-      "\t<button md-menu-item>${text}</button>",
-      "</md-menu>"
+      "<mat-menu #${name}=\"matMenu\">",
+      "\t<button mat-menu-item>${text}</button>",
+      "</mat-menu>"
     ],
     "Description": "Material 2 Menu"
   },
   "Menu Icon": {
-    "prefix": "md2-menu-icon",
+    "prefix": "mat-menu-icon",
     "body": [
-      "<md-menu #${name}=\"mdMenu\">",
-      "\t<button md-menu-item>",
-      "\t\t<md-icon>${iconName}</md-icon>",
+      "<mat-menu #${name}=\"matMenu\">",
+      "\t<button mat-menu-item>",
+      "\t\t<mat-icon>${iconName}</mat-icon>",
       "\t\t<span>${text}</span>",
       "\t</button>",
-      "</md-menu>"
+      "</mat-menu>"
     ],
     "Description": "Material 2 Menu with Icon"
   },
+  "Paginator": {
+    "prefix": "mat-paginator",
+    "body": [
+      "<mat-paginator [length]=\"${length}\" [pageSize]=\"${pageSize}\" [pageSizeOptions]=\"${options}\"></mat-paginator>"
+    ]
+  },
   "Progress Bar": {
-    "prefix": "md2-prog-bar",
-    "body": "<md-progress-bar mode=\"${mode}\"></md-progress-bar>",
+    "prefix": "mat-prog-bar",
+    "body": "<mat-progress-bar mode=\"${mode}\"></mat-progress-bar>",
     "Description": "Material 2 Progress Bar"
   },
   "Progress Spinner": {
-    "prefix": "md2-spinner",
-    "body": "<md-spinner></md-spinner>",
-    "Description": "Material 2 Spinner"
-  },
-  "Progress Circle": {
-    "prefix": "md2-prog-circle",
-    "body": "<md-progress-circle mode=\"${mode}\" [value]=\"${value}\" [color]=\"${color}\"></md-progress-circle>",
-    "Description": "Material 2 Progress Circle"
+    "prefix": "mat-prog-spin",
+    "body": "<mat-progress-spinner mode=\"${mode}\"></mat-progress-spinner>",
+    "Description": "Material 2 Progress Spinner"
   },
   "Radio": {
-    "prefix": "md2-radio",
+    "prefix": "mat-radio",
     "body": [
-      "<md-radio-group>",
-      "\t<md-radio-button></md-radio-button>",
-      "</md-radio-group>"
+      "<mat-radio-group>",
+      "\t<mat-radio-button value=\"${value}\">${text}</mat-radio-button>",
+      "</mat-radio-group>"
     ],
     "Description": "Material 2 Radio"
   },
   "Select": {
-    "prefix": "md2-select",
+    "prefix": "mat-select",
     "body": [
-      "<md-select placeholder=\"${placeholder}\" name=\"${name}\">",
-      "\t<md-option></md-option>",
-      "</md-select>"
+      "<mat-form-field>",
+      "\t<mat-select placeholder=\"${placeholder}\" name=\"${name}\">",
+      "\t\t<mat-option></mat-option>",
+      "\t</mat-select>",
+      "</mat-form-field>"
     ],
     "Description": "Material 2 Select"
   },
   "Sidenav": {
-    "prefix": "md2-sidenav",
+    "prefix": "mat-sidenav",
     "body": [
-      "<md-sidenav-container>",
-      "\t<md-sidenav>${content}</md-sidenav>",
-      "</md-sidenav-container>"
+      "<mat-sidenav-container>",
+      "\t<mat-sidenav>${content}</mat-sidenav>",
+      "</mat-sidenav-container>"
     ],
     "Description": "Material 2 Side Nav"
   },
   "Slider": {
-    "prefix": "md2-slider",
+    "prefix": "mat-slider",
     "body": [
-      "<md-slider></md-slider>"
+      "<mat-slider></mat-slider>"
     ],
     "Description": "Material 2 Slider"
   },
   "Slide Toogle": {
-    "prefix": "md2-slide",
+    "prefix": "mat-slide",
     "body": [
-      "<md-slide-toggle>${text}</md-slide-toggle>"
+      "<mat-slide-toggle>${text}</mat-slide-toggle>"
     ],
     "Description": "Material 2 Slide Toggle"
   },
-  "Tab": {
-    "prefix": "md2-tab",
+  "Stepper": {
+    "prefix": "mat-step",
     "body": [
-      "<md-tab-group>",
-      "\t<md-tab label=\"${label}\">${content}</md-tab>",
-      "</md-tab-group>"
+      "<mat-${horizontal}-stepper>",
+      "\t<mat-step>${content1}</mat-step>",
+      "\t<mat-step>${content2}</mat-step>",
+      "</mat-${horizontal}-stepper>"
+    ]
+  },
+  "Tab": {
+    "prefix": "mat-tab",
+    "body": [
+      "<mat-tab-group>",
+      "\t<mat-tab label=\"${label}\">${content}</mat-tab>",
+      "</mat-tab-group>"
     ],
     "Description": "Material 2 Tab"
   },
   "Toolbar": {
-    "prefix": "md2-toolbar",
+    "prefix": "mat-toolbar",
     "body": [
-      "<md-toolbar>${text}</md-toolbar>"
+      "<mat-toolbar>${text}</mat-toolbar>"
     ],
     "Description": "Material 2 Toolbar"
   },
   "Toolbar Multirow": {
-    "prefix": "md2-toolbar-row",
+    "prefix": "mat-toolbar-row",
     "body": [
-      "<md-toolbar>",
-      "\t<md-toolbar-row>",
+      "<mat-toolbar>",
+      "\t<mat-toolbar-row>",
       "\t\t<span>${text}</span>",
       "\t\t<span class=\"example-spacer\"></span>",
-      "\t\t<md-icon></md-icon>",
-      "\t</md-toolbar-row>",
-      "</md-toolbar>"
+      "\t\t<mat-icon></mat-icon>",
+      "\t</mat-toolbar-row>",
+      "</mat-toolbar>"
     ],
     "Description": "Material 2 Toolbar Multi Row"
   },
   "Tooltip": {
-    "prefix": "md2-tooltip",
+    "prefix": "mat-tooltip",
     "body": [
-      "<${dom} mdTooltip=\"Tooltip!\"></${dom}>"
+      "<${dom} matTooltip=\"Tooltip!\"></${dom}>"
     ]
   }
 }

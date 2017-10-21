@@ -1,17 +1,12 @@
 {
   "Import Dialog": {
-    "prefix": "md2-imp-dialog",
+    "prefix": "mat-imp-dialog",
     "description": "Material 2 Import Dialog",
-    "body": "import { MdDialog, MdDialogRef } from '@angular/material';"
-  },
-  "Import Icon": {
-    "prefix": "md2-imp-icon",
-    "description": "Material 2 Import Icon Registry",
-    "body": "import { MdIconRegistry } from '@angular2-material';"
+    "body": "import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';"
   },
   "Import Snackbar": {
-    "prefix": "md2-imp-snackbar",
+    "prefix": "mat-imp-snackbar",
     "description": "Material 2 Import Snackbar",
-    "body": "import { MdSnackBar } from '@angular/material';"
+    "body": "import {MatSnackBar} from '@angular/material';"
   }
 }
