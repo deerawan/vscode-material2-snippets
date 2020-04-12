@@ -1,12 +1,12 @@
 {
   "Autocomplete": {
-    "prefix": "md2-auto",
+    "prefix": "mat-autocomplete",
     "body": [
-      "<md-autocomplete #${name}=\"mdAutocomplete\">",
-      "\t<md-option></md-option>",
-      "</md-autocomplete>"
+      "<mat-autocomplete #auto=\"matAutocomplete\">",
+      "\t<mat-option *ngFor=\"let ${2:element} of ${1:array}\" [value]=\"${2:element}\">{{${2:element}}}</mat-option>",
+      "</mat-autocomplete>"
     ],
-    "description": "Material 2 Autocomplete"
+    "description": "Material Autocomplete"
   },
   "Button Basic": {
     "prefix": "md2-btn",
@@ -102,11 +102,11 @@
     "description": "Material 2 Card with Sections"
   },
   "Checkbox": {
-    "prefix": "md2-checkbox",
+    "prefix": "mat-checkbox",
     "body": [
-      "<md-checkbox>${text}</md-checkbox>"
+      "<mat-checkbox>${text}</mat-checkbox>"
     ],
-    "description": "Material 2 Checkbox"
+    "description": "Material Checkbox"
   },
   "Chips": {
     "prefix": "md2-chip",
@@ -116,6 +116,18 @@
       "</md-chip-list>"
     ],
     "description": "Material 2 Chips"
+  },
+  "Datepicker": {
+    "prefix": "mat-datepicker",
+    "body": [
+      "<mat-form-field>",
+      "\t<mat-label>${1:label}</mat-label>",
+      "\t<input matInput [matDatepicker]=\"${2:name}\">",
+      "\t<mat-datepicker-toggle matSuffix [for]=\"${2:name}\"></mat-datepicker-toggle>", 
+      "\t<mat-datepicker #${2:name}></mat-datepicker>",     
+      "</mat-form-field>"
+    ],
+    "description": "Material Datepicker"
   },
   "Grid List": {
     "prefix": "md2-grid",
@@ -141,22 +153,38 @@
     "description": "Material 2 Icon using SVG icon"
   },
   "Input": {
-    "prefix": "md2-input",
+    "prefix": "mat-input",
     "body": [
-      "<md-input-container>",
-      "\t<input mdInput placeholder=\"${placeholder}\">",
-      "</md-input-container>"
+      "<input matInput type=\"${1:type}\" placeholder=\"${2:placeholder}\">"
     ],
-    "description": "Material 2 Input"
+    "description": "Material Input"
   },
-  "Input Textarea": {
-    "prefix": "md2-textarea",
+  "Input Form Field": {
+    "prefix": "mat-input-field",
     "body": [
-      "<md-input-container>",
-      "\t<textarea mdInput placeholder=\"${placeholder}\">${value}</textarea>",
-      "</md-input-container>"
+      "<mat-form-field>",
+      "\t<mat-label>${1:label}</mat-label>",
+      "\t<input matInput type=\"${2:type}\" placeholder=\"${3:placeholder}\">",
+      "</mat-form-field>"
     ],
-    "description": "Material 2 Input Textarea"
+    "description": "Material Input with form field and label"
+  },
+  "Textarea": {
+    "prefix": "mat-textarea",
+    "body": [
+      "<textarea matInput placeholder=\"${placeholder}\"></textarea>"      
+    ],
+    "description": "Material Textarea"
+  },
+  "Textarea Form Field": {
+    "prefix": "mat-textarea-field",
+    "body": [
+      "<mat-form-field>",
+      "\t<mat-label>${1:label}</mat-label>",
+      "\t<textarea matInput placeholder=\"${2:placeholder}\"></textarea>",
+      "</mat-form-field>"
+    ],
+    "description": "Material Textarea with form field and label"
   },
   "List": {
     "prefix": "md2-list",
@@ -168,26 +196,15 @@
     "Description": "Material 2 List"
   },
   "Menu": {
-    "prefix": "md2-menu",
+    "prefix": "mat-menu",
     "body": [
-      "<md-menu #${name}=\"mdMenu\">",
-      "\t<button md-menu-item>${text}</button>",
-      "</md-menu>"
+      "<button mat-button [matMenuTriggerFor]=\"${1:menu}\">${2:buttonLabel}</button>",
+      "<mat-menu #${1:menu}=\"matMenu\">",
+      "\t<button mat-menu-item>${3:item}</button>",
+      "</mat-menu>"
     ],
-    "Description": "Material 2 Menu"
-  },
-  "Menu Icon": {
-    "prefix": "md2-menu-icon",
-    "body": [
-      "<md-menu #${name}=\"mdMenu\">",
-      "\t<button md-menu-item>",
-      "\t\t<md-icon>${iconName}</md-icon>",
-      "\t\t<span>${text}</span>",
-      "\t</button>",
-      "</md-menu>"
-    ],
-    "Description": "Material 2 Menu with Icon"
-  },
+    "Description": "Material Menu"
+  },  
   "Progress Bar": {
     "prefix": "md2-prog-bar",
     "body": "<md-progress-bar mode=\"${mode}\"></md-progress-bar>",
@@ -204,22 +221,38 @@
     "Description": "Material 2 Progress Circle"
   },
   "Radio": {
-    "prefix": "md2-radio",
+    "prefix": "mat-radio",
     "body": [
-      "<md-radio-group>",
-      "\t<md-radio-button></md-radio-button>",
-      "</md-radio-group>"
+      "<mat-radio-group aria-label=\"${1:aria label}\">",
+      "\t<mat-radio-button value=\"${2:first value}\">${3:first label}</mat-radio-button>",
+      "</mat-radio-group>"
     ],
-    "Description": "Material 2 Radio"
+    "Description": "Material Radio Button"
   },
   "Select": {
-    "prefix": "md2-select",
+    "prefix": "mat-select",
     "body": [
-      "<md-select placeholder=\"${placeholder}\" name=\"${name}\">",
-      "\t<md-option></md-option>",
-      "</md-select>"
+      "<mat-select>",
+      "\t<mat-option *ngFor=\"let ${2:element} of ${1:list}\" [value]=\"${3:value}\">",
+      "\t\t{{${4:view value}}}",
+      "\t</mat-option>",
+      "</mat-select>"
     ],
-    "Description": "Material 2 Select"
+    "Description": "Material Select"
+  },
+  "Select With Form Field": {
+    "prefix": "mat-select-field",
+    "body": [
+      "<mat-form-field>",
+      "\t<mat-label>${1:label}</mat-label>",
+      "\t<mat-select>",
+      "\t\t<mat-option *ngFor=\"let ${3:element} of ${2:list}\" [value]=\"${4:value}\">",
+      "\t\t\t{{${5:view value}}}",
+      "\t\t</mat-option>",
+      "\t</mat-select>",
+      "</mat-form-field>"
+    ],
+    "Description": "Material Select with form field"
   },
   "Sidenav": {
     "prefix": "md2-sidenav",
